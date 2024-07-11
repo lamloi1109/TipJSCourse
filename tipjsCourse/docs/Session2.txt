@@ -1,0 +1,33 @@
+Cách setup thư mục trong 1 dự án nodejs
+Project
+- node_modules
+- src
+    + middlewares
+    + controllers
+    + models
+    + utils
+    + services
+    + configs
+    + app.js
+- index.js 
+
+Cách tạo một dự án nodejs với express
+- Morgan
++ What -> Là một middleware dùng để ghi log các yêu cầu http
+
+- Helmet
++ What -> Là một middleware nhằm tăng độ bảo mật cho express js
+
+- Compression
++ What-> middlewares dùng để nén dữ liệu mà server gửi đến Client nhằm giảm băng thông
++ When -> Không nên sử dụng với các file đã nén, mp4, file ảnh và các file có dữ liệu nhỏ
++ Why -> Giảm băng thông
++ How -> 3 tham số: level, threshold, filter
+
+level: mức độ nén
+threshold: dung lượng nén tối thiểu 
+
+var const let
+Scope
+    
+

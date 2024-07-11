@@ -1,0 +1,28 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Learn Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamloi1109/TodoList.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Lamloi1109",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamloi1109/TodoList/issues"
+  },
+  "homepage": "https://github.com/lamloi1109/TodoList#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
